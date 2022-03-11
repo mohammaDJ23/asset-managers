@@ -118,7 +118,7 @@ function afterRequestProcess(dispatch: Dispatch<AllActions>, state: RootState, f
 async function requestProcess(dispatch: Dispatch<AllActions>, state: RootState, form: string) {
   const formInfo = beforeRequestProcess(state, form);
 
-  const res = await new Rest().req(apis[form](formInfo));
+  const res = await Rest.req(apis[form](formInfo));
 
   afterRequestProcess(dispatch, state, form);
 

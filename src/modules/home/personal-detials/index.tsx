@@ -21,6 +21,7 @@ const PersonalDetails: FC = () => {
         <InputLabel htmlFor="Sex">Sex</InputLabel>
 
         <Select
+          id="Sex"
           error={
             !!(
               !personalDetialsForm.inputs[PersonalDetailsInputs.SEX].isValid &&

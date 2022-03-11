@@ -11,8 +11,6 @@ export const apis: GlobalObj<(data: GlobalObj<any>) => AxiosRequestConfig> = {
   },
 
   [`${Forms.PERSONAL_DETIALS}__${Forms.ADDRESS_DETAILS}`](data) {
-    return {
-      url: 'https://jsonplaceholder.typicode.com/posts/1',
-    };
+    return {};
   },
 };
