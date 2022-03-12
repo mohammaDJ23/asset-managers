@@ -4,7 +4,9 @@
 
 <br>
 
-### This project has been created with nextJs (The React Framework for Production)
+### This project has been created with nextJs (The React Framework for Production).
+
+### This app is not connected to any services, it's just a client side of your assignment (useing aws services needs an account with accurate information like visa card and so on).
 
 <br>
 
@@ -15,9 +17,3 @@ _To install all dependencies_
 _To run the program_
 
     npm run start
-
-_To run the test_
-
-    npm run test
-    npm run test-watch
-    npm run test-watch-all
